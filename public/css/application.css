@@ -1,3 +1,7 @@
+*{
+  border: 1px solid purple;
+}
+
 .container {
   width: 100%;
   max-width: 800px;
@@ -6,18 +10,49 @@
 }
 
 .center {
+  display: block;
   text-align: center;
 }
 
 .back {
+  display: inline-block;
+  margin: auto;
   text-align: center;
 }
 
-img {
+.main_image {
   display: block;
   margin: auto;
   width: 30%;
 }
+
+/*.next {
+  display: block;
+  margin: auto;
+  width: 30%;
+}*/
+
+.little_images{
+  display: block;
+  margin: auto;
+}
+
+.thumbnail{
+/*  display: inline-block;
+  margin: auto;*/
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
+/*
+.arrow-left {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+
+  border-right:10px solid blue;
+}*/
 
 /*.submitLink {
   background-color: transparent;

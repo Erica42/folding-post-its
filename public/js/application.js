@@ -26,14 +26,15 @@ $(document).ready(function() {
     step--;
     console.log(step)
     $this.siblings('a').find("img").replaceWith('<img src="/images/crane' + step + '.jpg">');
-    $this.data('step-id', step);
+    $this.siblings('a').data('step-id', step);
     }
     else if (step == 1) {
       step = 0;
       $this.siblings('a').find("img").replaceWith('<img src="/images/start.jpg">');
-      $this.data('step-id', step);
+      $this.siblings('a').data('step-id', step);
     } else {
        $this.siblings('a').find("img").replaceWith('<img src="/images/crane29.jpg">')
+       $this.siblings('a').data('step-id', 29)
     }
   })
 

@@ -118,5 +118,4 @@ DEPENDENCIES
   sinatra (~> 1.4)
   sinatra-contrib
 
-BUNDLED WITH
-   2.0.1
+

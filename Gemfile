@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby ">=2.3.0"
 # PostgreSQL driver
 gem 'pg', '~> 0.21'
 
@@ -27,4 +27,7 @@ group :test do
   gem 'database_cleaner'
   gem 'factory_girl'
   gem 'faker'
+end
+group :production do
+  gem "puma"
 end

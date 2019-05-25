@@ -51,6 +51,7 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
     public_suffix (3.0.3)
+    puma (3.12.1)
     rack (1.6.11)
     rack-protection (1.5.5)
       rack
@@ -108,6 +109,7 @@ DEPENDENCIES
   nokogiri (>= 1.8.5)
   pg (~> 0.21)
   pry
+  puma
   rack (>= 1.6.11)
   rack-protection (>= 1.5.5)
   rack-test
@@ -117,6 +119,9 @@ DEPENDENCIES
   shoulda-matchers
   sinatra (~> 1.4)
   sinatra-contrib
+
+RUBY VERSION
+   ruby 2.6.3p62
 
 BUNDLED WITH
    1.17.2

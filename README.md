@@ -5,4 +5,5 @@ Post-its have a sticky part which makes them harder to fold, so the folds might 
 
 This was a project to create a whole app from nothing.
 
-I had to create this new repo rather than forking it because I didn't understand Heroku. I know better now. #showyourwork
+You can find the website at http://folding-post-its.herokuapp.com/
+

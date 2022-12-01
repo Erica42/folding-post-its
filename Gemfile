@@ -4,7 +4,7 @@ ruby ">=2.3.0"
 gem 'pg', '~> 0.21'
 
 # Sinatra driver
-gem 'sinatra', '~>1.4'
+gem 'sinatra', '~>3.0'
 gem 'sinatra-contrib'
 
 gem 'activesupport', '~>4.2.2'

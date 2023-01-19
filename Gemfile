@@ -7,8 +7,8 @@ gem 'pg', '~> 0.21'
 gem 'sinatra', '~>1.4'
 gem 'sinatra-contrib'
 
-gem 'activesupport', '~>4.2.2'
-gem 'activerecord', '~>4.2.7.1'
+gem 'activesupport', '~>7.0.4'
+gem 'activerecord', '~>7.0.4.1'
 gem "activemodel", ">= 4.2.5.1"
 
 gem 'rake'
